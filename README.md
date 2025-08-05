@@ -14,6 +14,107 @@ A curated collection of beautiful, responsive login form templates built with pu
 - **Cross-Browser Support** - Works on all modern browsers
 - **Lightweight** - Optimized for performance
 
+## 🖼️ Form Gallery
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="forms/glassmorphism/">
+          <img src="assets/screenshots/glassmorphism.png" width="250" alt="Glassmorphism">
+        </a>
+        <br>
+        <b>Glassmorphism</b>
+      </td>
+      <td align="center">
+        <a href="forms/neon/">
+          <img src="assets/screenshots/neon.png" width="250" alt="Neon Minimalist">
+        </a>
+        <br>
+        <b>Neon Minimalist</b>
+      </td>
+      <td align="center">
+        <a href="forms/gradient-wave/">
+          <img src="assets/screenshots/gradient-wave.png" width="250" alt="Gradient Wave">
+        </a>
+        <br>
+        <b>Gradient Wave</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="forms/corporate/">
+          <img src="assets/screenshots/corporate.png" width="250" alt="Corporate">
+        </a>
+        <br>
+        <b>Corporate Professional</b>
+      </td>
+      <td align="center">
+        <a href="forms/material/">
+          <img src="assets/screenshots/material.png" width="250" alt="Material Design">
+        </a>
+        <br>
+        <b>Material Design</b>
+      </td>
+      <td align="center">
+        <a href="forms/neumorphism/">
+          <img src="assets/screenshots/neumorphism.png" width="250" alt="Neumorphism">
+        </a>
+        <br>
+        <b>Neumorphism</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="forms/basic/">
+          <img src="assets/screenshots/basic.png" width="250" alt="Basic Form">
+        </a>
+        <br>
+        <b>Basic Form</b>
+      </td>
+      <td align="center">
+        <a href="forms/minimal/">
+          <img src="assets/screenshots/minimal.png" width="250" alt="Minimal Clean">
+        </a>
+        <br>
+        <b>Minimal Clean</b>
+      </td>
+      <td align="center">
+        <a href="forms/creative/">
+          <img src="assets/screenshots/creative.png" width="250" alt="Creative Portal">
+        </a>
+        <br>
+        <b>Creative Portal</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="forms/eco-wellness/">
+          <img src="assets/screenshots/eco-wellness.png" width="250" alt="Eco Wellness">
+        </a>
+        <br>
+        <b>Eco Wellness</b>
+      </td>
+      <td align="center">
+        <a href="forms/ai-assistant/">
+          <img src="assets/screenshots/ai-assistant.png" width="250" alt="AI Assistant">
+        </a>
+        <br>
+        <b>AI Assistant</b>
+      </td>
+      <td align="center">
+        <a href="forms/neon-cyber/">
+          <img src="assets/screenshots/neon-cyber.png" width="250" alt="Neon Cyber">
+        </a>
+        <br>
+        <b>Neon Cyber</b>
+      </td>
+    </tr>
+  </table>
+  
+  <p><a href="#-available-forms">See all 19 forms below ↓</a></p>
+</div>
+
 ## 📂 Available Forms
 
 ### 🎨 Modern & Stylish

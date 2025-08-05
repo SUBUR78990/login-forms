@@ -1,5 +1,7 @@
 # Basic Login Form
 
+![Basic Login Form Preview](../../assets/screenshots/basic.png)
+
 A clean, simple, and functional login form that follows modern web standards. Perfect for quick implementation or as a starting point for customization.
 
 ## ✨ Features

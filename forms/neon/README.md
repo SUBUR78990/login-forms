@@ -2,6 +2,8 @@
 
 *Created by [Aigars Silkalns](https://github.com/puikinsh/) for [Colorlib](https://colorlib.com)*
 
+![Neon Minimalist Login Form Preview](../../assets/screenshots/neon.png)
+
 A sleek dark-themed login form with neon green accents and animated background effects.
 
 ## Features

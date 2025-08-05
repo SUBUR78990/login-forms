@@ -2,6 +2,8 @@
 
 *Created by [Aigars Silkalns](https://github.com/puikinsh/) for [Colorlib](https://colorlib.com)*
 
+![Glassmorphism Login Form Preview](../../assets/screenshots/glassmorphism.png)
+
 A modern login form featuring the popular glassmorphism design trend with frosted glass effects and smooth animations.
 
 ## Features
