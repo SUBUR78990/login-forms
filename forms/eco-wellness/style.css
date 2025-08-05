@@ -265,12 +265,12 @@ body {
 
 /* Nature Toggle */
 .organic-field:has(.nature-toggle) input {
-    padding-right: 100px;
+    padding-right: 56px;
 }
 
 .nature-toggle {
     position: absolute;
-    right: 60px;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
     background: none;

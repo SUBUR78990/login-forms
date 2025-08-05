@@ -198,15 +198,25 @@ body {
 }
 
 /* Checkbox Styles */
-.checkbox-wrapper {
+.remember-wrapper {
     display: flex;
     align-items: center;
     gap: 8px;
     cursor: pointer;
 }
 
-.checkbox-wrapper input[type="checkbox"] {
+.remember-wrapper input[type="checkbox"] {
     display: none;
+}
+
+.checkbox-label {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .checkmark {
@@ -223,28 +233,18 @@ body {
     backdrop-filter: blur(10px);
 }
 
-.checkbox-wrapper input[type="checkbox"]:checked + .checkbox-label .checkmark {
+.remember-wrapper input[type="checkbox"]:checked ~ .checkbox-label .checkmark {
     background: #06b6d4;
     border-color: #06b6d4;
     transform: scale(1.1);
 }
 
-.checkbox-wrapper input[type="checkbox"]:checked + .checkbox-label .checkmark::after {
+.remember-wrapper input[type="checkbox"]:checked ~ .checkbox-label .checkmark::after {
     content: '✓';
     color: white;
     font-size: 11px;
     font-weight: bold;
     animation: checkmarkPop 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.checkbox-label {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 14px;
-    cursor: pointer;
-    user-select: none;
-    display: flex;
-    align-items: center;
-    gap: 8px;
 }
 
 /* Success Message */
@@ -420,13 +420,6 @@ body {
     gap: 12px;
 }
 
-.remember-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    cursor: pointer;
-}
-
 .forgot-password {
     color: #06b6d4;
     text-decoration: none;
@@ -466,27 +459,31 @@ body {
     text-align: center;
     margin: 24px 0;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .divider::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-50%);
+    margin-right: 16px;
+}
+
+.divider::after {
+    margin-left: 16px;
 }
 
 .divider span {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
     color: rgba(255, 255, 255, 0.7);
-    padding: 0 16px;
     font-size: 14px;
-    position: relative;
-    z-index: 1;
+    white-space: nowrap;
 }
 
 /* Social Login */
